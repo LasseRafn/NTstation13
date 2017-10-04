@@ -28,7 +28,7 @@ Follow this: http://tgstation13.org/wiki/Setting_up_git
 (It's recommended that you use git-scm, as above, rather than the git CLI
 suggested by the guide)
 
-#INSTALLATION
+# INSTALLATION
 
 First-time installation should be fairly straightforward.  First, you'll need
 BYOND installed. You can get it from http://www.byond.com/. Once you've done 
@@ -73,7 +73,7 @@ compiled NTstation.dmb file.  Make sure to set the port to the one you
 specified in the config.txt, and set the Security box to 'Safe'.  Then press GO
 and the server should start up and be ready to join.
 
-#UPDATING
+# UPDATING
 
 To update an existing installation, first back up your /config and /data folders
 as these store your server configuration, player preferences and banlist.
@@ -84,20 +84,20 @@ install, overwriting when prompted except if we've specified otherwise, and
 recompile the game.  Once you start the server up again, you should be running
 the new version.
 
-#SQL SETUP
+# SQL SETUP
 
 The SQL backend for the library and stats tracking requires a 
 MySQL server.  Your server details go in /config/dbconfig.txt, and the SQL 
 schema is in /SQL/database_schema.sql.  More detailed setup instructions are located here: http://tgstation13.org/wiki/Downloading_the_source_code#Setting_up_the_database
 
-#IRC BOT SETUP
+# IRC BOT SETUP
 
 Included in the SVN is an IRC bot capable of relaying adminhelps to a specified
 IRC channel/server (thanks to Skibiliano).
 Instructions for bot setup are included in the /bot folder along with the script
 itself
 
-#CONTRIBUTING
+# CONTRIBUTING
 Everyone is free to contribute to this project as long as they follow these simple guidelines and specifications.
 
 **Introduction**
@@ -148,7 +148,7 @@ We have a [list of guides on the wiki](http://tgstation13.org/wiki/Guides#Develo
 
 For beginners, it is recommended you work on small projects, at first. There is an easy list of issues which are [contributor friendly, here](https://github.com/NTStation/NTStation13/issues?labels=Contributor+Friendly&page=1&state=open).
 
-#LICENSE
+# LICENSE
 
 All code is under a GNU GPL v3 license (http://www.gnu.org/licenses/gpl.html),
 including tools unless their readme specifies otherwise.
